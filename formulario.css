@@ -67,7 +67,7 @@ background:#E0E0F8;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top:120%;
+    top:50%;
     left: 40%;
     transform: translate(50%, -50%);
 
