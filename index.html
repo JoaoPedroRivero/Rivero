@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <title>Formulario</title>
+</head>
+<body background="img/fundo riverox siite (2).png">
+
+    <div>
+ <h1 id="titulo">Cadastro</h1> 
+ <p id="subtitulo">Coloque suas informações abaixo</p>
+  <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome"><strong>Nome:</strong></label> 
+            <Br>
+                <input type="text"name="nome" id="nome">
+            </div> 
+            <br>
+            <div class="campo">
+                <label><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome"> </div>
+            <div class="campo">
+                <lable><strong>Email:</strong></lable>
+        <input type="email" name="email" id="email" required></div>
+        <div class="campo">
+            <label><strong>Qual seu gênero?</strong></label>
+            <label><input type="radio" name="Gener" value="masculino" checked>Masculino </label>
+            <label><input type="radio" name="Gener" value="feminino">Feminino</label>
+            <label><input type="radio" name="Gener" value="outros" >Outros</lable> 
+        </div>
+        <fieldset>
+        <div id="check">
+            <label for="estado"><strong>Em que estado você mora?</strong></label>
+                <option selected disabled value="">Selecione</option>
+                <select id="estado">
+                    <option selected disabled value="">Selecione</option>
+                <option>Acre (AC)</option> 
+                <option>Alagoas (AL)</option> 
+                <option>Amapá (AP)</option>
+                <option>Amazonas (AM)</option> 
+                <option>Bahia (BA)</option>
+                <option>Ceará (CE)</option>
+ <option>Distrito Federal (DF)</option>
+ <option>Espírito Santo (ES)</option>
+ <option>Goiás (GO)</option>
+ <option>Maranhão (MA)</option>     
+ <option>Mato Grosso (MT)</option>           
+ <option>Mato Grosso do Sul (MS)</option>
+ <option>Minas Gerais (MG)</option>
+ <option>Pará (PA)</option>
+ <option>Paraíba (PB)</option>
+ <option>Paraná (PR)</option>
+ <option>Pernambuco (PE)</option>
+ <optipn>Piauí (PI)</optipn>
+ <option>Rio de Janeiro (RJ)</option>
+ <option>Rio Grande do Norte (RN)</option>
+ <option>Rio Grande do Sul (RS)</option>
+ <option>Rondônia (RO)</option>
+ <option>Roraima (RR)</option>
+ <option>Santa Catarina (SC)</option>
+ <option>São Paulo (SP)</option>
+ <option>Sergipe (SE)</option>
+ <option>Tocantins (TO)</option>
+            </select>
+            <br> 
+
+        </div>
+    </fieldset>
+
+        <fieldset class="grupo">
+            <div claass="campo">
+                <label><strong>Qual você prefere?</strong></label> <br>
+                <input type="checkbox" id="preferencia1" name="preferencia1" value="Filmes">
+                <lable for="preferencia2">Filmes</lable>
+                <input type="checkbox" id="preferencia2" name="preferencia2" value="series">
+                <lable for="preferencia3">Series</lable>
+                <input type="checkbox" id="preferencia3" name="preferencia3" value="livros">
+                <table for="preferencia3">Livros</table>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label><strong>Conte um pouco sobre você<strong</label>
+            <textarea  rows="6"   style="width: 16em;" id="you" name="you"></textarea> 
+        </div>
+        
+        <div class="campo"> 
+            <button class="botao" type="submit">Concluído</button>
+        </div>
+    </form>
+</body>
+</html>
