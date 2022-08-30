@@ -67,7 +67,7 @@ background:#E0E0F8;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top:50%;
+    top:70%;
     left: 40%;
     transform: translate(50%, -50%);
 
@@ -79,4 +79,15 @@ background:#E0E0F8;
 }
 #check{
     display: inline-block;
-
+}
+.corpo{
+    align-self: center;
+    align-items: center;
+    background-image: url(design\ index.png);
+}
+.logo{
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-top: 0;
+    max-width: 250px;
+}
